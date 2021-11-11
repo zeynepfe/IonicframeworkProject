@@ -1,17 +1,89 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 2
+      Su Dengesi
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 2 page"></app-explore-container>
-</ion-content>
+<ion-grid>
+  <ion-row>
+  <ion-col>
+    <ion-button>TEMİZLE</ion-button>
+  </ion-col>
+  <ion-col>
+    
+  </ion-col>
+  <ion-col>
+    <ion-button>GEÇMİŞ</ion-button>
+  </ion-col>
+</ion-row>
+</ion-grid>
+<ion-grid>
+  <ion-row>
+    <ion-col col-sm-3>
+      <ion-item>
+        <ion-img src="../../assets/water.png"></ion-img>
+        <ion-input type="text" placeholder="First Name"></ion-input>
+      </ion-item>
+    </ion-col>
+    <ion-row>
+      <ion-col col-sm-9>
+        <ion-card class="water">
+          <ion-card-header>
+            <ion-card-subtitle>Bir bardak su</ion-card-subtitle>
+            <ion-card class="amount">+200</ion-card>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card class="tea">
+          <ion-card-header>
+            <ion-card-subtitle>Bir fincan çay</ion-card-subtitle>
+            <ion-icon name="cafe"></ion-icon>
+            <div class="amount">+100</div>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  <ion-row>
+    <ion-col>
+      <ion-card class="soap">
+        <ion-card-header>
+          <ion-card-subtitle>Bir tabak çorba</ion-card-subtitle>
+          <ion-icon name="cafe"></ion-icon>
+          <div class="amount">+150</div>
+        </ion-card-header>
+      </ion-card>
+    </ion-col>
+    <ion-col>
+      <ion-card  class="food">
+        <ion-card-header>
+          <ion-card-subtitle>Bir tabak sulu yemek</ion-card-subtitle>
+          <div class="amount">+70</div>
+        </ion-card-header>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+  </ion-row>
+</ion-grid>
+<ion-grid>
+  <ion-row>
+    <ion-col>
+      <ion-card>
+        <ion-card-header>
+          <ion-card-subtitle>Alınan Sıvı 0 ml</ion-card-subtitle>
+          <ion-button expand="full">EKLE</ion-button>
+        </ion-card-header>
+      </ion-card>
+    </ion-col>
+    <ion-col>
+      <ion-card>
+        <ion-card-header>
+          <ion-card-subtitle>Çıkan Sıvı 0 ml</ion-card-subtitle>
+          <ion-button expand="full">EKLE</ion-button>
+        </ion-card-header>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+</ion-grid>
